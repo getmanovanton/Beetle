@@ -1,0 +1,170 @@
+body {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #FFFFFF;
+  color: #ffffff; }
+
+img {
+  max-width: 100%;
+  width: auto; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: normal; }
+
+button {
+  outline: none;
+  cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.countainer {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 5px;
+}
+@media (max-width: 790px){
+.work-exp{
+  flex-direction: column;
+}
+  .contact .contacts {
+    align-items: center;
+    flex-direction: column;
+    }
+  .contact .contacts .contact-us .location {
+    display: none;
+  }
+  .contact .contacts .contact-us {
+    width: auto;
+  }
+  .comment{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .map a {
+    height: 190px;
+  }
+  .work-exp .work-text {
+    text-align: center;
+    align-items: center;}
+  footer .countainer {
+    flex-direction: column;
+    text-align: center;
+    :nth-child(3){
+        margin-bottom: 10px;
+      }
+    :nth-child(2){
+      margin-bottom: 10px;
+    }
+  }
+  .contact .contacts .comment form .btn-send {
+  float: none;
+}
+}
+@media (max-width: 650px){
+  .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-text .text-h2 {
+    line-height: 25px;}
+  .swiper-wrap .swiper-container .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;}
+  header .header-wrapper .head .main-menu ul {
+    flex-direction: column;
+    align-items: center;}
+  header .header-wrapper .head .main-menu ul li {
+    margin-left: 0;
+    padding: 15px;}
+  .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide {
+    flex-direction: column;
+    align-items: center;}
+  .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-text {
+    text-align: center;
+    padding-right: 0;}
+  .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-text .text-h2 {
+    font-size: 18px;
+    margin-bottom: 0;}
+  .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-logos .block-ul {
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;}
+  .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-logos .block-ux {
+    margin-left: -15px;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;}
+  .swiper-wrap .swiper-container .swiper-wrapper .swiper-slide .swiper-text .text-p {
+    line-height: 16px;
+    font-size: 11px;}
+  .portfolio .grid .hover-item {
+    -ms-grid-column: 2;
+    grid-column-start: 1;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    padding: 20px 60px 20px;}
+  .portfolio .grid{grid-template-columns: repeat(2,2fr);}
+  .portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 510px){
+  .work-exp .years-companies .companies .company .com-text .com-h2 {
+    font-size: 13px;}
+  .work-exp .years-companies .companies .company .com-text .com-h3 {
+    font-size: 10px;}
+  .work-exp .years-companies .companies .company .com-text .com-p {
+    font-size: 12px;}
+  .swiper-wrap_2 .swiper-container .swiper-wrapper .swiper-slide .swiper-quote .swiper-quote-h2 {
+    font-family: "Open Sans", "sans-serif";
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 13px;}
+  .swiper-wrap_2 .swiper-container .swiper-wrapper .swiper-slide .swiper-quote .swiper-quote-p {
+    font-family: "Open Sans", "sans-serif";
+    font-style: italic;
+    font-size: 11px;
+    color: #cccccc;
+    text-align: center;
+    margin-bottom: 40px;}
+  .swiper-wrap_2 .swiper-container .swiper-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;}
+  .portfolio .portfolio-btn {
+    font-size: 10px}
+  .work-exp .work-text .work-btn {
+    font-size: 10px;
+  }
+  header .header-wrapper .head-text .main-text {
+    font-size: 40px;}
+  header .header-wrapper .head-text .main-text2 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 371px){
+  .work-exp .years-companies {
+display: none;}
+}
